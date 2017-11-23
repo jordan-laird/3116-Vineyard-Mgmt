@@ -4,6 +4,8 @@ body {
   height: auto;
 }
 
+/*PAGE ONE */
+
 #logo {
   height: 140px;
   text-align: center;
@@ -11,13 +13,13 @@ body {
   margin-top: 30px;
 }
 #Grape1 {
-  width: 640px;
+  width: 580px;
   height: 300px;
   margin-top: -60px;
   margin-left: -5px;
 }
 #Grape1Flipped {
-  width: 640px;
+  width: 580px;
   height: 300px;
   float: right;
   margin-top: -60px;
@@ -27,6 +29,7 @@ body {
   width: 90%;
   margin-left: 5%;
   height: 450px;
+  padding-bottom: 20px;
   background-color:  #e9eef5;
   background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
   border-radius: 3px;
@@ -47,20 +50,23 @@ h2 {
 .KarriePic {
   width: 300px;
   height: 300px;
-  margin-left: 15px;
+  margin-left: 4%;
+  margin-right: 3%;
 }
+/*PAGE TWO*/
+
 #ourservices {
   margin-top: 50px;
   clear: both;
 }
 #Grapevine3flipped {
-  width: 710px;
-  height: 240px;
+  width: 690px;
+  height: 230px;
   margin-top: -50px;
 }
 #Grapevine3 {
-  width: 710px;
-  height: 240px;
+  width: 690px;
+  height: 230px;
   float: right;
   margin-top: -50px;
 }
@@ -89,6 +95,9 @@ h3 {
   line-height: 1.2em;
   text-align: center;
 }
+
+/*PAGE THREE*/
+
 #ourclients {
   padding-bottom: 60px;
 }
@@ -113,7 +122,7 @@ h3 {
   margin-right: 15px;
   border-radius: 3px;
 }
-/*Keyframe Animations*/
+/*ANIMATION BANNER*/
 .first {
   -webkit-animation: bannermove 30s linear infinite;
   animation: bannermove 30s linear infinite;
@@ -136,6 +145,7 @@ h3 {
  }
 
 }
+/*FOOTER*/
 
 footer {
   padding-bottom: 10px;
@@ -162,4 +172,280 @@ footer p {
   z-index: 999;
   text-shadow: 2px 2px 4px gray;
   font-weight: 900;
+}
+
+/*MOBILE*/
+
+@media screen and (min-width: 400px) and (max-width: 768px ) {
+  #logo {
+    height: 90px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 2%;
+  }
+  #ourcompany {
+    height: 875px;
+  }
+  #ourcompany p {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+  .KarriePic {
+    width: 300px;
+    height: 300px;
+    margin-left: 5%;
+  }
+  #Grape1 {
+    width: 400px;
+    height: 235px;
+    margin-top: -60px;
+    margin-left: -5px;
+  }
+  #Grape1Flipped {
+    display: none;
+  }
+  #ourservices {
+    margin-top: 165px;
+  }
+  #Grapevine3flipped {
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+  }
+  #Grapevine3 {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: -50px;
+  }
+  #ourclients {
+    display: none;
+  }
+  #contact {
+    width: 100px;
+    height: 100px;
+    margin-left: 12%;
+    margin-top: 25px;
+  }
+  h4 {
+    font-size: 28px;
+    margin-top: -75px;
+    margin-left: 37%;
+  }
+  footer p {
+    font-size: 14px;
+    margin-left: 38%;
+    margin-top: 5px;
+  }
+}
+
+/*TABLET*/
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  #logo {
+    height: 110px;
+  }
+  #Grape1 {
+    width: 340px;
+    height: 200px;
+    margin-top: -2px;
+    margin-left: -5px;
+  }
+  #Grape1Flipped {
+    width: 340px;
+    height: 200px;
+    margin-top: -2px;
+  }
+  #ourcompany {
+    height: 620px;
+    padding-bottom: 20px;
+  }
+  #ourcompany p {
+    padding-left: 40px;
+    padding-right: 60px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .KarriePic {
+    width: 250px;
+    height: 250px;
+    margin-left: 28%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .serviceBox {
+    margin-left: 26%;
+  }
+  #Grapevine3flipped {
+    width: 375px;
+    height: 180px;
+  }
+  #Grapevine3 {
+    width: 375px;
+    height: 180px;
+  }
+  .photobanner img {
+    width: 200px;
+    height: 200px;
+  }
+  #contact {
+    width: 450px;
+    height: 450px;
+    margin-left: 25%;
+  }
+  h4 {
+    font-size: 30px;
+    margin-top: -325px;
+    margin-left: 33%;
+  }
+  footer p {
+    font-size: 16px;
+    margin-left: 33%;
+    margin-top: 15px;
+  }
+}
+
+/*SMALL LAPTOP*/
+
+@media screen and (min-width: 901px) and (max-width: 991px) {
+  #logo {
+    height: 120px;
+  }
+  #ourcompany {
+    height: 660px;
+    padding: 20px;
+  }
+  #ourcompany p {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+  .KarriePic {
+    margin-left: 30%;
+  }
+  #Grape1 {
+    width: 400px;
+    height: 235px;
+    margin-top: -30px;
+    margin-left: -5px;
+  }
+  #Grape1Flipped {
+    width: 400px;
+    height: 235px;
+    margin-top: -30px;
+    float: right;
+  }
+  #ourservices {
+    margin-top: 165px;
+    clear: both;
+  }
+  #Grapevine3flipped {
+    width: 460px;
+    height: 220px;
+    margin-top: -50px;
+  }
+  #Grapevine3 {
+    width: 460px;
+    height: 220px;
+    float: right;
+    margin-top: -50px;
+  }
+  .serviceBox {
+    margin-left: 26%;
+  }
+  .photobanner img {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    border-radius: 3px;
+  }
+  #contact {
+    width: 480px;
+    height: 480px;
+    margin-left: 28%;
+  }
+  h4 {
+    font-size: 34px;
+    margin-top: -350px;
+    margin-left: 34%;
+  }
+  footer p {
+    font-size: 17px;
+    margin-left: 34%;
+    margin-top: 10px;
+  }
+}
+
+/*MAC AIR*/
+
+@media screen and (min-width: 992px) and (max-width: 1416px) {
+  #logo {
+    height: 125px;
+  }
+  #Grape1 {
+    width: 420px;
+    margin-top: -45px;
+  }
+  #Grape1Flipped {
+    width: 420px;
+    margin-top: -45px;
+    float: right;
+  }
+  #ourcompany p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+  .KarriePic {
+    width: 300px;
+    height: 300px;
+    margin-left: -2%;
+  }
+  .serviceBox {
+    margin-left: 6%;
+    margin-right: 5%;
+  }
+  .third {
+    margin-left: 34%;
+    margin-right: 36%;
+  }
+  #Grapevine3flipped {
+    width: 510px;
+    height: 240px;
+    margin-top: -50px;
+  }
+  #Grapevine3 {
+    width: 510px;
+    height: 240px;
+    float: right;
+    margin-top: -50px;
+  }
+  .photobanner img {
+    width: 225px;
+    height: 225px;
+  }
+  #contact {
+    width: 520px;
+    height: 520px;
+    margin-left: 30%;
+  }
+  h4 {
+    margin-left: 35%;
+  }
+  footer p {
+    margin-left: 35%;
+  }
 }
